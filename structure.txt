@@ -1,0 +1,24 @@
+wc-multi-platform/
+├── wc-multi-platform.php
+├── includes/
+│   ├── class-mp-core.php
+│   ├── class-mp-purchase.php
+│   ├── class-mp-sales.php
+│   ├── class-mp-reporting.php
+│   ├── platforms/
+│   │   ├── class-mp-platform-tokopedia.php
+│   │   ├── class-mp-platform-shopee.php
+│   │   └── class-mp-platform-abstract.php
+│   └── admin/
+│       ├── class-mp-admin.php
+│       └── views/
+│           ├── settings.php
+│           ├── purchase.php
+│           ├── sales.php
+│           └── reporting.php
+├── assets/
+│   ├── css/
+│   │   └── admin.css
+│   └── js/
+│       └── admin.js
+└── README.md
